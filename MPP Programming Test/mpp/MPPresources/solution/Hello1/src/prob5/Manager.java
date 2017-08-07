@@ -1,0 +1,22 @@
+package prob5;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class Manager extends Employee {
+	List<SeminarsConducted> seminars;
+
+	public Manager(String name, double salary, LocalDate hireDate, List<SeminarsConducted> seminars) {
+		super(name, salary, hireDate);
+		this.seminars = seminars;
+	}
+
+	@Override
+	public double getSalary() {
+		return getSalary() + computeBonus();
+	}
+
+	double computeBonus() {
+		return MyBiFunction.bf.apply(getHireDate().getYear(), LocalDate.now().getYear());
+	}
+}

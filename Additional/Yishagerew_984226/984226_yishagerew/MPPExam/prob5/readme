@@ -1,0 +1,13 @@
+Here there are 2 possibilities solving the problem:
+1. Adding a new interface and making Employee inherit from it, but this doesn't make sense as
+every employee will not have bonus.
+2. LeadEngineer and Manager has a bonus so, creating an interface for both of them and still use main information from
+Employee class is an ideal choice.
+
+Advantage of this design:
+    Separation of concern, any employee should not be entitled to a BonusInterface interface
+    Avoids duplication of code and otherwise be put in both classes, Manager and LeadEngineer
+
+
+test:
+    Main class is for testing the implementation, has main method for test!

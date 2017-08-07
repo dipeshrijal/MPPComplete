@@ -1,0 +1,6 @@
+- inner class
+- iterator
+- enum
+- collections API
+- consumer interface
+- functional interface

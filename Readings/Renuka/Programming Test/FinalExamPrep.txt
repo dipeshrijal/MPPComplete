@@ -1,0 +1,51 @@
+========================================================Lesson 7==============================================================
+
+1. Solve Evolving Api Problem using Java 8 interface?
+=> Legacy code is not required to implememt the new methods, so the existing code will not be broken and new functionality will be available for the new clients project.
+
+2. Importance of ENUM
+=> i) Provides a list of related CONSTANTS for an application
+   ii) Optimal, threadsafe implementation of the Singleton Pattern
+
+8. How to make class immutable?
+=> i)	make instance variable private and final
+   ii)	make class final
+   iii)	provie no setters
+   iv) 	make sure the getters does not return mutable objects
+
+
+========================================================Lesson 8==============================================================
+9. Principles of Functional Style Programming
+=> i)	Programs are Declarative - Makes code more self-documenting.
+   ii)	Avoid Mutable States - is the use of immutable values so the testing of the program is very easy.
+   iii)	Function as First class values - functions can be passed as values.
+   iv) 	Side effect free functions - function do not cause the change of state as it has referential transparency.
+   v) Design with higher order functions - can take other functions as arguments or return them as result.
+
+10. Advantages of Functional Style
+=> i)	Allows to write easier to understand code.
+   ii)	Allows to focus on the problem rather than the code.
+   iii) Facilitates parallelism.
+   iv) 	Thread safe.
+
+15. Four kinds of Method Reference
+=> i) 	Reference to a static method.
+   ii)	Reference to an instance method of a specific object.
+   iii)	Reference to an instance method of a arbitary object supplied later.
+   iv)	Reference to a constructor.
+
+25. Type Erasure
+=> Used by compiler but not available at runtime.
+
+26. Benefits of Generics
+=> i) Strong typechecking
+   ii) Elimination of castings
+   iii) Support creation of cleaner generic algoithms.
+
+27. Restriction of Generics
+=> i) Generic Subtyping is not covariant.
+   ii) Component type of an array is not allowed to be a type of variable.
+   iii) cannot plug in a primitive type paramater rather reference type must be used.
+   iv) Component type of an array is not allowed to be a parameterized type.
+
+

@@ -1,0 +1,5 @@
+// Person with Job is not equal to Person, because equals() compare name and salary
+ System.out.println("p1.equals(p2)? " + p1.equals(p2)); 
+
+// Person is equals to PersonWithJob, because equals() compare only name
+ System.out.println("p2.equals(p1)? " + p2.equals(p1)); 

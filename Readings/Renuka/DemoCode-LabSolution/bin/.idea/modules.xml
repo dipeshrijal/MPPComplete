@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoCode-LabSolution.iml" filepath="$PROJECT_DIR$/DemoCode-LabSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson4/labsolns/labsolns.iml" filepath="$PROJECT_DIR$/lesson4/labsolns/labsolns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson3/labsolns/labsolns1.iml" filepath="$PROJECT_DIR$/lesson3/labsolns/labsolns1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson5/lansolns/lansolns.iml" filepath="$PROJECT_DIR$/lesson5/lansolns/lansolns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson3/labsolns/problem2/problem2.iml" filepath="$PROJECT_DIR$/lesson3/labsolns/problem2/problem2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson3/labsolns/problem3/problem3.iml" filepath="$PROJECT_DIR$/lesson3/labsolns/problem3/problem3.iml" />
+    </modules>
+  </component>
+</project>

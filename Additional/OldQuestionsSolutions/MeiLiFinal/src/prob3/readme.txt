@@ -1,0 +1,1 @@
+It was actually not overriding the equals method and needed to override hashcode also. 

@@ -1,0 +1,3 @@
+3.
+a. nums.add(3.14) When the extends wildcard is used to define a parametrized type, the type cannot be used for adding new elements.
+b. double db1 = sum(ints);

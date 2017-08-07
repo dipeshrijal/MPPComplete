@@ -1,0 +1,16 @@
+1.	Rules Framework. Use the rules framework introduced in the lecture (see lesson5.lecture.factorymethods2) along with the sample UI code provided in lesson5.labs.prob1.samplecode to extend functionality of the UI to incorporate rule validations. Implement the following rules:
+
+Address Rules.
+       A. All fields must be nonempty 
+B. ID field must be numeric 
+C. Zip must be numeric with exactly 5 digits 
+D. State must have exactly two characters in the range A-Z 
+E. ID field may not equal zip field.
+
+Profile Rules.
+ A. Favorite restaurant cannot equal favorite movie
+ B. All fields non empty
+ C. ID must be numeric
+ D. firstname and lastname fields may not contain spaces or characters other than a-z, A-Z.
+
+Create a sequence diagram and object diagram for the following scenario: After creating an instance of MainFrame, a user invokes AddrWindow, types in the value “113” in the ID field, leaving the other fields empty, and then clicks the Submit button.

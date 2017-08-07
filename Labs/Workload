@@ -1,0 +1,10 @@
+Sequence Diagram
+	- Actor who initiates the process;
+	- Message passing denoted by solid line ->;
+	- Return value denoted by dotted line <--;
+	- Object and Class participation on the process instanceName:Classname;
+	- Lifetime of the process (vertical dotted line);
+	- Reflexive Call (called within the same class);
+	- Activation Bar which shows the duration of the method call (function lifetime);
+	- Numbering denoting the execution order of the process;
+	- Loop denoted by *
